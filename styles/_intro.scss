@@ -1,0 +1,31 @@
+@import 'variables';
+
+.intro{
+    &-content{
+        width: 100vw;
+        height: 100vh;
+        max-width: 100%;
+        background-color: $color-intro;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+        display: none;
+        .hide{            
+            overflow: hidden;
+            .logo{
+                display: inline-block;
+            }
+        }
+        .slider{
+            width: 100vw;
+            height: 100vh;
+            max-width: 100%;
+            background-color: $color-main-2;
+            position: fixed;
+            transform: translateY(100%);
+            z-index: 999;
+        }
+    }
+}
