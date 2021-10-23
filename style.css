@@ -97,6 +97,7 @@ html, body {
 @media (min-width: 600px) and (max-width: 800px) {
   .main {
     min-width: 400px;
+    min-height: 600px;
   }
 }
 
@@ -110,7 +111,7 @@ html, body {
 @media (min-width: 300px) and (max-width: 400px) {
   .main {
     min-width: 200px;
-    min-height: 800px;
+    min-height: 830px;
   }
 }
 
@@ -1043,7 +1044,7 @@ html, body {
   }
   .obras .proyecto-1 img {
     margin: 10px 0 10px 0;
-    width: 75%;
+    width: 70%;
     height: auto;
     border-radius: 12px 12px 12px 12px;
   }
@@ -1066,7 +1067,7 @@ html, body {
   }
   .obras .proyecto-2 img {
     margin: 10px 0 10px 0;
-    width: 75%;
+    width: 70%;
     height: auto;
     border-radius: 12px 12px 12px 12px;
   }
@@ -1089,7 +1090,7 @@ html, body {
   }
   .obras .proyecto-3 img {
     margin: 20px 0 20px 0;
-    width: 75%;
+    width: 70%;
     height: auto;
     border-radius: 12px 12px 12px 12px;
   }
@@ -1112,7 +1113,7 @@ html, body {
   }
   .obras .proyecto-4 img {
     margin: 20px 0 20px 0;
-    width: 75%;
+    width: 70%;
     height: auto;
     border-radius: 12px 12px 12px 12px;
   }
@@ -1135,7 +1136,7 @@ html, body {
   }
   .obras .proyecto-5 img {
     margin: 20px 0 20px 0;
-    width: 75%;
+    width: 70%;
     height: auto;
     border-radius: 12px 12px 12px 12px;
   }
@@ -1637,6 +1638,145 @@ html, body {
   }
 }
 
+@media (min-width: 600px) and (max-width: 800px) {
+  .empresa h1 {
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+  }
+  .empresa span {
+    height: 70px;
+    margin-top: 35px;
+    -ms-grid-row: 4;
+        grid-row-start: 4;
+  }
+  .empresa span h2 {
+    font-size: 50px;
+  }
+  .empresa p {
+    font-size: 16px;
+  }
+  .empresa .text-1 {
+    text-align: justify;
+    -ms-grid-row: 7;
+        grid-row-start: 7;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 21;
+  }
+  .empresa .text-2 {
+    text-align: justify;
+    -ms-grid-row: 11;
+        grid-row-start: 11;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 21;
+  }
+  .empresa .text-3 {
+    text-align: justify;
+    -ms-grid-row: 15;
+        grid-row-start: 15;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 21;
+  }
+  .empresa img {
+    display: none;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+  .empresa h1 {
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+  }
+  .empresa span {
+    height: 70px;
+    margin-top: 35px;
+    -ms-grid-row: 4;
+        grid-row-start: 4;
+  }
+  .empresa span h2 {
+    font-size: 50px;
+  }
+  .empresa p {
+    font-size: 14px;
+  }
+  .empresa .text-1 {
+    text-align: justify;
+    -ms-grid-row: 7;
+        grid-row-start: 7;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 21;
+  }
+  .empresa .text-2 {
+    text-align: justify;
+    -ms-grid-row: 11;
+        grid-row-start: 11;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 21;
+  }
+  .empresa .text-3 {
+    text-align: justify;
+    -ms-grid-row: 15;
+        grid-row-start: 15;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 21;
+  }
+  .empresa img {
+    display: none;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .empresa h1 {
+    font-size: 80px;
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+  }
+  .empresa span {
+    height: 55px;
+    margin-top: 25px;
+    -ms-grid-row: 4;
+        grid-row-start: 4;
+  }
+  .empresa span h2 {
+    font-size: 40px;
+  }
+  .empresa p {
+    font-size: 12px;
+  }
+  .empresa .text-1 {
+    text-align: justify;
+    -ms-grid-row: 7;
+        grid-row-start: 7;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 21;
+  }
+  .empresa .text-2 {
+    text-align: justify;
+    -ms-grid-row: 11;
+        grid-row-start: 11;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 21;
+  }
+  .empresa .text-3 {
+    text-align: justify;
+    -ms-grid-row: 15;
+        grid-row-start: 15;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 21;
+  }
+  .empresa img {
+    display: none;
+  }
+}
+
 .contacto {
   width: 100%;
   height: 100%;
@@ -1704,6 +1844,33 @@ html, body {
 }
 
 @media (min-width: 800px) and (max-width: 900px) {
+  .contacto span {
+    margin-top: 37px;
+    height: 130px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  .contacto span {
+    margin-top: 37px;
+    height: 130px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+  .contacto h1 {
+    font-size: 70px;
+  }
+  .contacto span {
+    margin-top: 37px;
+    height: 130px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .contacto h1 {
+    font-size: 60px;
+  }
   .contacto span {
     margin-top: 37px;
     height: 130px;

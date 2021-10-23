@@ -152,3 +152,125 @@
         }
     }       
 }
+
+@media (min-width: 600px) and (max-width: 800px){
+    .empresa{
+        h1{
+            grid-row-start: 2;
+        }
+        span{
+            height: 70px;
+            margin-top: 35px;
+            grid-row-start: 4;
+            h2{
+                font-size: 50px;
+            }           
+        }
+        p{
+            font-size: 16px;
+        }
+        .text-1{
+            text-align: justify;
+            grid-row-start: 7;
+            grid-column-start: 1;
+            grid-column-end: 21;            
+        }
+        .text-2{
+            text-align: justify;
+            grid-row-start: 11;
+            grid-column-start: 1;
+            grid-column-end: 21;
+        }
+        .text-3{
+            text-align: justify;
+            grid-row-start: 15;
+            grid-column-start: 1;
+            grid-column-end: 21;
+        }
+        img{
+            display: none;
+        }
+    }       
+}
+
+@media (min-width: 400px) and (max-width: 600px){
+    .empresa{
+        h1{
+            grid-row-start: 2;
+        }
+        span{
+            height: 70px;
+            margin-top: 35px;
+            grid-row-start: 4;
+            h2{
+                font-size: 50px;
+            }           
+        }
+        p{
+            font-size: 14px;
+        }
+        .text-1{
+            text-align: justify;
+            grid-row-start: 7;
+            grid-column-start: 1;
+            grid-column-end: 21;
+        }
+        .text-2{
+            text-align: justify;
+            grid-row-start: 11;
+            grid-column-start: 1;
+            grid-column-end: 21;
+        }
+        .text-3{
+            text-align: justify;
+            grid-row-start: 15;
+            grid-column-start: 1;
+            grid-column-end: 21;
+        }
+        img{
+            display: none;
+        }
+    }       
+}
+
+@media (min-width: 300px) and (max-width: 400px){
+    .empresa{
+        h1{
+            font-size: 80px;
+            grid-row-start: 2;
+        }
+        span{
+            height: 55px;
+            margin-top: 25px;
+            grid-row-start: 4;
+            h2{
+                font-size: 40px;
+            }           
+        }
+        p{
+            font-size: 12px;
+        }
+        .text-1{
+            text-align: justify;
+            grid-row-start: 7;
+            grid-column-start: 1;
+            grid-column-end: 21;
+        }
+        .text-2{
+            text-align: justify;
+            grid-row-start: 11;
+            grid-column-start: 1;
+            grid-column-end: 21;
+        }
+        .text-3{
+            text-align: justify;
+            grid-row-start: 15; 
+            grid-column-start: 1;
+            grid-column-end: 21;
+            
+        }
+        img{
+            display: none;
+        }
+    }       
+}
