@@ -29,6 +29,7 @@
         justify-content: flex-start;
         h2{
             font-size: 60px;
+            color: $font-color-3;
         }
     }
     p{
@@ -39,16 +40,19 @@
         grid-column-start: 1;
         grid-column-end: 13;
         grid-row-start: 6;
+        color: $font-color-4;
     }
     .text-2{
         grid-column-start: 1;
         grid-column-end: 13;
         grid-row-start: 10;
+        color: $font-color-4;
     }
     .text-3{
         grid-column-start: 1;
         grid-column-end: 13;
         grid-row-start: 14;
+        color: $font-color-4;
     }
     img{
         width: 400px;

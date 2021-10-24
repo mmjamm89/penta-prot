@@ -8,6 +8,8 @@
     grid-template-rows: repeat(80, 5%);
     grid-template-columns: repeat(20, 5%);
 
+    background-color: $color-main-3;
+
     .obras-title-1{
         font-size: 90px;
         color: $color-main-2;
@@ -29,6 +31,7 @@
         justify-content: flex-start;
         .obras-ejecucion{
             font-size: 60px;
+            color: $font-color-3;
         }
     }
     #proyecto{
@@ -46,8 +49,8 @@
 
         display: flex;
 
-        box-shadow: 4px 4px 8px rgba(165, 177, 198, 0.8),
-                    -4px -4px 8px rgba(255, 255, 255, 0.5);
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5),
+                    -4px -4px 8px rgba(0, 0, 0, 0.1);
                 
         img{
             height: 200px;
@@ -59,6 +62,7 @@
             flex-direction: column;
             justify-content: space-around;
             align-items: flex-start;
+            color: $font-color-4;
         }
     }
     .proyecto-2{
@@ -71,8 +75,8 @@
         grid-column-end: 21;
         grid-row-start: 14;
 
-        box-shadow: 4px 4px 8px rgba(165, 177, 198, 0.8),
-                    -4px -4px 8px rgba(255, 255, 255, 0.5);
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5),
+                    -4px -4px 8px rgba(0, 0, 0, 0.1);
 
         display: flex;
         img{
@@ -85,6 +89,7 @@
             flex-direction: column;
             justify-content: space-around;
             align-items: flex-start;
+            color: $font-color-4;
         }        
     }
     .proyecto-3{
@@ -97,8 +102,8 @@
         grid-column-end: 21;
         grid-row-start: 26;
 
-        box-shadow: 4px 4px 8px rgba(165, 177, 198, 0.8),
-                    -4px -4px 8px rgba(255, 255, 255, 0.5);
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5),
+                    -4px -4px 8px rgba(0, 0, 0, 0.1);
         
         display: flex;
         img{
@@ -111,6 +116,7 @@
             flex-direction: column;
             justify-content: space-around;
             align-items: flex-start;
+            color: $font-color-4;
         }
     }
     .proyecto-4{
@@ -123,8 +129,8 @@
         grid-column-end: 21;
         grid-row-start: 33;
 
-        box-shadow: 4px 4px 8px rgba(165, 177, 198, 0.8),
-                    -4px -4px 8px rgba(255, 255, 255, 0.5);
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5),
+                    -4px -4px 8px rgba(0, 0, 0, 0.1);
 
         display: flex;
         img{
@@ -137,6 +143,7 @@
             flex-direction: column;
             justify-content: space-around;
             align-items: flex-start;
+            color: $font-color-4;
         }
     }
     .proyecto-5{
@@ -149,8 +156,8 @@
         grid-column-end: 21;
         grid-row-start: 40; 
         
-        box-shadow: 4px 4px 8px rgba(165, 177, 198, 0.8),
-                    -4px -4px 8px rgba(255, 255, 255, 0.5);
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5),
+                    -4px -4px 8px rgba(0, 0, 0, 0.1);
         
         display: flex;
 
@@ -164,6 +171,7 @@
             flex-direction: column;
             justify-content: space-around;
             align-items: flex-start;
+            color: $font-color-4;
         }
     }
 
@@ -188,6 +196,7 @@
         justify-content: flex-start;
         .obras-finalizadas{
             font-size: 60px;
+            color: $font-color-3;
         }
     }
     .footer{

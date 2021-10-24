@@ -23,7 +23,12 @@
         grid-column-start: 1;
         grid-row-start: 4;
 
+        color: $font-color-4;
+
         font-size: 60px;
+    }
+    .logo-home{
+        display: none;
     }
     p{
         grid-column-start: 1;
@@ -33,6 +38,8 @@
 
         font-size: 25px;
         margin-right: 20px;
+
+        color: $font-color-4;
     }
     .img-main{
         width: 430px;
@@ -67,9 +74,9 @@
 
             border: none;
 
-            background-color: $color-intro;
+            background-color: $color-main;
             a{
-                color: $color-main;
+                color: $font-color-3;
                 font-size: 30px;
                 cursor: pointer;
                 text-decoration: none;
@@ -238,16 +245,19 @@
         align-items: center;
 
         h1{
-            margin-bottom: -170px;
+            display: none;
         }
         h2{
-            font-size: 50px;
+            display: none;
+        }
+        .logo-home{
+            display: inline-block;
+            width: 300px;
         }
         p{
             font-size: 22px;            
             text-align: center;
-            margin-top: -130px;
-            margin-bottom: -50px;
+            
         }
         .img-main{
             display: none;
