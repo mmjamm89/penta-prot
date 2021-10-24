@@ -102,7 +102,7 @@ html, body {
 
 @media (min-width: 400px) and (max-width: 600px) {
   .main {
-    min-width: 400px;
+    min-width: 300px;
     min-height: 800px;
   }
 }
@@ -405,7 +405,7 @@ html, body {
 @media (min-width: 300px) and (max-width: 400px) {
   .header .navbar {
     width: 95%;
-    min-width: 400px;
+    min-width: 200px;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
@@ -475,6 +475,12 @@ html, body {
   color: #DFDFE2;
 }
 
+@media (min-width: 300px) and (max-width: 400px) {
+  .footer {
+    font-size: 2vw;
+  }
+}
+
 .content {
   width: 60%;
   height: 100%;
@@ -530,7 +536,7 @@ html, body {
 
 @media (min-width: 300px) and (max-width: 400px) {
   .content {
-    width: 95%;
+    width: 100%;
     min-width: 200px;
   }
 }
@@ -884,10 +890,10 @@ html, body {
   }
   .home .logo-home {
     display: inline-block;
-    width: 300px;
+    width: 200px;
   }
   .home p {
-    font-size: 22px;
+    font-size: 5vw;
     text-align: center;
   }
   .home .img-main {
