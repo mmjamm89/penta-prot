@@ -9,22 +9,34 @@ const introAnimation = () => {
 
 }
 
-const menuBtn = document.querySelector('.menu-btn');
-const navUl = document.querySelector('.nav-links')
+//Animacion transcion
+const homeElementsAnimation = () => {
+  let tl = gsap.timeline({default: {ease: "power1.out"}})
 
-let menuOpen = false;
+  tl.fromTo('.content', {opacity: 0}, {opacity: 1, duration: 2})
+}
 
-menuBtn.addEventListener('click', () => {
-  if(!menuOpen){
-    menuBtn.classList.add('open');
-    navUl.classList.toggle('show');
-    menuOpen = true;
-  }else{
-    menuBtn.classList.remove('open');
-    navUl.classList.toggle('show');
-    menuOpen = false;
+//Menu desplegable
+const menu = () => {
+
+  const menuBtn = document.querySelector('.menu-btn');
+  const navUl = document.querySelector('.nav-links')
+
+  let menuOpen = false;
+
+  menuBtn.addEventListener('click', () => {
+    if(!menuOpen){
+      menuBtn.classList.add('open');
+      navUl.classList.toggle('show');
+      menuOpen = true;
+    }else{
+      menuBtn.classList.remove('open');
+      navUl.classList.toggle('show');
+      menuOpen = false;
+    }
   }
-})
-
+)}
 
 introAnimation();
+homeElementsAnimation();
+menu()
