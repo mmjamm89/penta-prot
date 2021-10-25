@@ -6,10 +6,9 @@ const introAnimation = () => {
   tl.fromTo(".logo", {opacity: 0}, {opacity: 1, duration: 2})    
     .to(".slider", { y: "-100%", duration: 1})
     .to(".intro-content", { y: "-100%", duration: 1}, "-=1")
-
 }
 
-//Animacion transcion
+//Animacion transicion
 const homeElementsAnimation = () => {
   let tl = gsap.timeline({default: {ease: "power1.out"}})
 
@@ -39,4 +38,4 @@ const menu = () => {
 
 introAnimation();
 homeElementsAnimation();
-menu()
+menu();

@@ -75,11 +75,19 @@
             border: none;
 
             background-color: $color-main;
+
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3),
+                        -4px -4px 8px rgba(0, 0, 0, 0.1);
+            transition: all .3s ease;
             a{
                 color: $font-color-3;
                 font-size: 30px;
                 cursor: pointer;
                 text-decoration: none;
+                transition: all .3s ease;
+                &:hover{
+                    color: $color-main-2;
+                }
             }
         }
     }
@@ -277,7 +285,7 @@
             button{
                 width: 200px;
                 height: 60px;
-                margin-left: 0;
+                margin-left: 0;                
                 a{
                     font-size: 25px;
                 }
