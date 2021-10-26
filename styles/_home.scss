@@ -1,30 +1,24 @@
 @import 'variables';
 
 .home{
-    width: 100%;
-    height: 100%;
-
     display: grid;
     grid-template-rows: repeat(20, 5%);
     grid-template-columns: repeat(20, 5%);
+    width: 100%;
+    height: 100%;
     h1{
-        text-align: justify;
-
         grid-column-start: 1;
         grid-row-start: 1;
         grid-row-end: 4;
         grid-column-end: 6;
-
+        text-align: justify;
         font-size: 110px;
-
         color: $color-main-2;
     }
     h2{
         grid-column-start: 1;
         grid-row-start: 4;
-
         color: $font-color-4;
-
         font-size: 60px;
     }
     .logo-home{
@@ -35,33 +29,24 @@
         grid-column-end: 13;
         grid-row-start: 6;
         grid-row-end: 14;
-
-        font-size: 25px;
         margin-right: 20px;
-
+        font-size: 25px;
         color: $font-color-4;
     }
     .img-main{
-        width: 430px;
-
-        border-radius: 16px;
-
         grid-column-start: 13;
         grid-row-start: 3;
-
+        width: 430px;
+        border-radius: 16px;
     }
     span{            
-        height: 120px;
-
-        background-color: $color-main-2;
-
         grid-column-start: 1;
         grid-column-end: 21;
         grid-row-start: 15;
+        height: 120px;
+        background-color: $color-main-2;
         opacity: 0.9;
-
         border-radius: 16px;
-
         display: flex;
         align-items: center;
         justify-content: flex-start;
@@ -69,13 +54,10 @@
             width: 300px;
             height: 75px;
             margin-left: 80px;
-
+            cursor: pointer;
             border-radius: 16px;
-
             border: none;
-
             background-color: $color-main;
-
             box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3),
                         -4px -4px 8px rgba(0, 0, 0, 0.1);
             transition: all .3s ease;

@@ -37,7 +37,7 @@ html, body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  z-index: 999;
+  z-index: 9999999;
 }
 
 .intro-content .hide {
@@ -60,16 +60,18 @@ html, body {
 }
 
 .main {
-  width: 100vw;
-  min-width: 1000px;
-  height: 100vh;
-  min-height: 900px;
-  background-color: #3D3D3D;
-  font-family: "Poppins", sans-serif;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 8% 87% 5%;
       grid-template-rows: 8% 87% 5%;
+  width: 100vw;
+  min-width: 1000px;
+  max-width: 1920px;
+  max-height: 900px;
+  height: 100vh;
+  min-height: 900px;
+  background-color: #3D3D3D;
+  font-family: "Poppins", sans-serif;
 }
 
 @media (min-width: 1100px) and (max-width: 1180px) {
@@ -486,9 +488,9 @@ html, body {
 }
 
 .footer {
+  position: static;
   width: 100%;
   height: 100%;
-  position: static;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -511,6 +513,8 @@ html, body {
 }
 
 .content {
+  position: static;
+  margin: auto;
   width: 60%;
   height: 100%;
   min-width: 1140px;
@@ -524,8 +528,6 @@ html, body {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #3D3D3D;
-  position: static;
-  margin: auto;
 }
 
 @media (min-width: 1100px) and (max-width: 1180px) {
@@ -571,24 +573,24 @@ html, body {
 }
 
 .home {
-  width: 100%;
-  height: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: (5%)[20];
       grid-template-rows: repeat(20, 5%);
   -ms-grid-columns: (5%)[20];
       grid-template-columns: repeat(20, 5%);
+  width: 100%;
+  height: 100%;
 }
 
 .home h1 {
-  text-align: justify;
   -ms-grid-column: 1;
       grid-column-start: 1;
   -ms-grid-row: 1;
       grid-row-start: 1;
   grid-row-end: 4;
   grid-column-end: 6;
+  text-align: justify;
   font-size: 110px;
   color: #F2922E;
 }
@@ -613,28 +615,28 @@ html, body {
   -ms-grid-row: 6;
       grid-row-start: 6;
   grid-row-end: 14;
-  font-size: 25px;
   margin-right: 20px;
+  font-size: 25px;
   color: #DFDFE2;
 }
 
 .home .img-main {
-  width: 430px;
-  border-radius: 16px;
   -ms-grid-column: 13;
       grid-column-start: 13;
   -ms-grid-row: 3;
       grid-row-start: 3;
+  width: 430px;
+  border-radius: 16px;
 }
 
 .home span {
-  height: 120px;
-  background-color: #F2922E;
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 21;
   -ms-grid-row: 15;
       grid-row-start: 15;
+  height: 120px;
+  background-color: #F2922E;
   opacity: 0.9;
   border-radius: 16px;
   display: -webkit-box;
@@ -652,6 +654,7 @@ html, body {
   width: 300px;
   height: 75px;
   margin-left: 80px;
+  cursor: pointer;
   border-radius: 16px;
   border: none;
   background-color: #DFDFE2;
@@ -965,27 +968,25 @@ html, body {
 }
 
 .obras {
-  width: 100%;
-  height: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: (5%)[80];
       grid-template-rows: repeat(80, 5%);
   -ms-grid-columns: (5%)[20];
       grid-template-columns: repeat(20, 5%);
+  width: 100%;
+  height: 100%;
   background-color: #3D3D3D;
 }
 
 .obras .obras-title-1 {
-  font-size: 90px;
-  color: #F2922E;
   -ms-grid-row: 1;
       grid-row-start: 1;
+  font-size: 90px;
+  color: #F2922E;
 }
 
 .obras .obras-span-1 {
-  height: 80px;
-  background-color: #F2922E;
   -ms-grid-row: 3;
       grid-row-start: 3;
   -ms-grid-column: 1;
@@ -993,6 +994,8 @@ html, body {
   grid-column-end: 21;
   margin-top: 30px;
   padding-left: 5px;
+  height: 80px;
+  background-color: #F2922E;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1014,9 +1017,6 @@ html, body {
 }
 
 .obras .proyecto-1 {
-  height: 200px;
-  width: 100%;
-  border-radius: 16px;
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 21;
@@ -1025,6 +1025,9 @@ html, body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 200px;
+  width: 100%;
+  border-radius: 16px;
   -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.1);
           box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -1054,19 +1057,19 @@ html, body {
 }
 
 .obras .proyecto-2 {
-  height: 200px;
-  width: 100%;
-  border-radius: 16px;
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 21;
   -ms-grid-row: 14;
       grid-row-start: 14;
-  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.1);
-          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.1);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 200px;
+  width: 100%;
+  border-radius: 16px;
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .obras .proyecto-2 img {
@@ -1092,19 +1095,19 @@ html, body {
 }
 
 .obras .proyecto-3 {
-  height: 200px;
-  width: 100%;
-  border-radius: 16px;
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 21;
   -ms-grid-row: 26;
       grid-row-start: 26;
-  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.1);
-          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.1);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 200px;
+  width: 100%;
+  border-radius: 16px;
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .obras .proyecto-3 img {
@@ -1130,19 +1133,19 @@ html, body {
 }
 
 .obras .proyecto-4 {
-  height: 200px;
-  width: 100%;
-  border-radius: 16px;
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 21;
   -ms-grid-row: 33;
       grid-row-start: 33;
-  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.1);
-          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.1);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 200px;
+  width: 100%;
+  border-radius: 16px;
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .obras .proyecto-4 img {
@@ -1168,19 +1171,19 @@ html, body {
 }
 
 .obras .proyecto-5 {
-  height: 200px;
-  width: 100%;
-  border-radius: 16px;
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 21;
   -ms-grid-row: 40;
       grid-row-start: 40;
-  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.1);
-          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.1);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 200px;
+  width: 100%;
+  border-radius: 16px;
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .obras .proyecto-5 img {
@@ -1189,10 +1192,10 @@ html, body {
 }
 
 .obras .proyecto-5 .proyecto-descripcion {
-  padding-left: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1206,15 +1209,13 @@ html, body {
 }
 
 .obras .obras-title-2 {
-  font-size: 90px;
-  color: #F2922E;
   -ms-grid-row: 20;
       grid-row-start: 20;
+  font-size: 90px;
+  color: #F2922E;
 }
 
 .obras .obras-span-2 {
-  height: 80px;
-  background-color: #F2922E;
   -ms-grid-row: 22;
       grid-row-start: 22;
   -ms-grid-column: 1;
@@ -1231,6 +1232,8 @@ html, body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  height: 80px;
+  background-color: #F2922E;
 }
 
 .obras .obras-span-2 .obras-finalizadas {
@@ -1768,26 +1771,24 @@ html, body {
 }
 
 .empresa {
-  width: 100%;
-  height: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: (5%)[20];
       grid-template-rows: repeat(20, 5%);
   -ms-grid-columns: (5%)[20];
       grid-template-columns: repeat(20, 5%);
+  width: 100%;
+  height: 100%;
 }
 
 .empresa h1 {
-  font-size: 90px;
-  color: #F2922E;
   -ms-grid-row: 1;
       grid-row-start: 1;
+  font-size: 90px;
+  color: #F2922E;
 }
 
 .empresa span {
-  height: 80px;
-  background-color: #F2922E;
   -ms-grid-row: 3;
       grid-row-start: 3;
   -ms-grid-column: 1;
@@ -1795,6 +1796,7 @@ html, body {
   grid-column-end: 21;
   margin-top: 30px;
   padding-left: 5px;
+  height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1804,6 +1806,7 @@ html, body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  background-color: #F2922E;
 }
 
 .empresa span h2 {
@@ -1844,14 +1847,14 @@ html, body {
 }
 
 .empresa img {
-  width: 400px;
-  border-radius: 16px;
   -ms-grid-row: 4;
       grid-row-start: 4;
   -ms-grid-column: 13;
       grid-column-start: 13;
   margin-top: 25px;
   margin-left: 30px;
+  width: 400px;
+  border-radius: 16px;
 }
 
 @media (min-width: 1100px) and (max-width: 1180px) {
@@ -2104,15 +2107,13 @@ html, body {
 }
 
 .contacto h1 {
-  font-size: 90px;
-  color: #F2922E;
   -ms-grid-row: 1;
       grid-row-start: 1;
+  font-size: 90px;
+  color: #F2922E;
 }
 
 .contacto span {
-  height: 150px;
-  background-color: #F2922E;
   -ms-grid-row: 3;
       grid-row-start: 3;
   -ms-grid-column: 1;
@@ -2120,6 +2121,7 @@ html, body {
   grid-column-end: 21;
   margin-top: 30px;
   padding-left: 5px;
+  height: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2132,16 +2134,17 @@ html, body {
           align-items: flex-start;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  background-color: #F2922E;
   font-size: 12px;
 }
 
 .contacto .maps {
-  width: 100%;
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 21;
   -ms-grid-row: 8;
       grid-row-start: 8;
+  width: 100%;
 }
 
 @media (min-width: 1100px) and (max-width: 1180px) {

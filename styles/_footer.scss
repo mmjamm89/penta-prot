@@ -1,20 +1,15 @@
 @import 'variables';
 
 .footer{
+    position: static;
     width: 100%;
     height: 100%;
-
-    position: static;    
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     font-size: 10px;
     font-weight: 0;
-
     color: $font-color-4;
-
     text-align: center;
 }
 
