@@ -17,6 +17,7 @@
 
 html, body {
   height: 100vh;
+  position: relative;
   overflow: hidden;
   overflow-y: auto;
   background-color: #3D3D3D;
@@ -66,8 +67,6 @@ html, body {
       grid-template-rows: 8% 87% 5%;
   width: 100vw;
   min-width: 1000px;
-  max-width: 1920px;
-  max-height: 900px;
   height: 100vh;
   min-height: 900px;
   background-color: #3D3D3D;
@@ -513,6 +512,8 @@ html, body {
 }
 
 .content {
+  max-width: 800px;
+  max-height: 800px;
   position: static;
   margin: auto;
   width: 60%;

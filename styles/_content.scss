@@ -1,6 +1,9 @@
 @import 'variables';
 
 .content{
+    max-width: 800px;
+    max-height: 800px;
+
     position: static;
     margin: auto;
     width: 60%;

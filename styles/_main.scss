@@ -1,14 +1,14 @@
 @import 'variables';
 
-.main{
+.main{    
     display: grid;
     grid-template-rows: 8% 87% 5%;
     width: 100vw;
     min-width: 1000px;
-    max-width: 1920px;
-    max-height: 900px;
+    // max-width: 1920px;        
     height: 100vh;
     min-height: 900px;
+    // max-height: 900px;
     background-color:$color-main-3;
     font-family: $font-main;
 }
