@@ -52,7 +52,7 @@
 }
 
 @media (min-width: 800px) and (max-width: 900px){
-    .contacto{
+    .contacto{        
         span{
             margin-top: 37px;            
             height: 130px;
@@ -61,34 +61,71 @@
 }
 
 @media (min-width: 600px) and (max-width: 800px){
-    .contacto{
+    .contacto{        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 50px;
+        h1{
+            font-size: 100px;
+            margin-bottom: -30px;
+        }
         span{
-            margin-top: 37px;            
-            height: 130px;
+            margin-top: 0px;
+            height: 30vh;
+            width: 100%;
+        }
+        .maps{
+            margin-top: 10px;
+            height: 30vh;
         }
     }
 }
 
 @media (min-width: 400px) and (max-width: 600px){
-    .contacto{
+    .contacto{        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 50px;
         h1{
-            font-size: 70px;
+            font-size: 72px;
+            margin-bottom: -30px;
+            
         }
         span{
-            margin-top: 37px;            
-            height: 130px;
+            margin-top: 20px;            
+            height: 30vh;
+            width: 100%;
+        }
+        .maps{
+            margin-top: 10px;
+            height: 30vh;
         }
     }
 }
 
 @media (min-width: 300px) and (max-width: 400px){
     .contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 50px;
         h1{
-            font-size: 60px;
+            font-size: 50px;
+            margin-bottom: -30px;
         }
         span{
-            margin-top: 37px;            
-            height: 130px;
+            margin-top: 20px;            
+            height: 30vh;
+            width: 100%;
+        }
+        .maps{
+            margin-top: 20px;
+            height: 30vh;
         }
     }
 }

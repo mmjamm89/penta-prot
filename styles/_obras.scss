@@ -37,7 +37,7 @@
         grid-row-start: 7;
         display: flex;
         height: 200px;
-        width: 100%;
+        width: 100%;        
         border-radius: 16px;
         box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5),
                     -4px -4px 8px rgba(0, 0, 0, 0.1);
@@ -247,6 +247,8 @@
 
 @media (min-width: 600px) and (max-width: 800px){
     .obras{
+        min-height: 700px;
+        
         grid-template-rows: repeat(160, 5%);
         .obras-title-1{
             font-size: 80px;            
@@ -366,6 +368,8 @@
 
 @media (min-width: 400px) and (max-width: 600px){
     .obras{
+        padding-top: 15vw;
+        min-height: 800px;
         grid-template-rows: repeat(160, 5%);
         .obras-title-1{
             font-size: 80px;            
@@ -485,6 +489,8 @@
 
 @media (min-width: 300px) and (max-width: 400px){
     .obras{
+        padding-top: 30vw;
+        min-height: 900px;        
         grid-template-rows: repeat(160, 5%);
         .obras-title-1{
             font-size: 80px;            

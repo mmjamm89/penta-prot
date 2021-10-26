@@ -156,8 +156,8 @@
             grid-row-start: 2;
         }
         span{
-            height: 70px;
-            margin-top: 35px;
+            height: 60px;
+            margin-top: 50px;            
             grid-row-start: 4;
             h2{
                 font-size: 50px;
@@ -168,19 +168,19 @@
         }
         .text-1{
             text-align: justify;
-            grid-row-start: 7;
+            grid-row-start: 8;
             grid-column-start: 1;
             grid-column-end: 21;            
         }
         .text-2{
             text-align: justify;
-            grid-row-start: 11;
+            grid-row-start: 12;
             grid-column-start: 1;
             grid-column-end: 21;
         }
         .text-3{
             text-align: justify;
-            grid-row-start: 15;
+            grid-row-start: 16;
             grid-column-start: 1;
             grid-column-end: 21;
         }
@@ -196,11 +196,11 @@
             grid-row-start: 2;
         }
         span{
-            height: 70px;
-            margin-top: 35px;
+            height: 50px;
+            margin-top: 50px;
             grid-row-start: 4;
             h2{
-                font-size: 50px;
+                font-size: 40px;
             }           
         }
         p{
@@ -208,19 +208,19 @@
         }
         .text-1{
             text-align: justify;
-            grid-row-start: 7;
+            grid-row-start: 8;
             grid-column-start: 1;
             grid-column-end: 21;
         }
         .text-2{
             text-align: justify;
-            grid-row-start: 11;
+            grid-row-start: 12;
             grid-column-start: 1;
             grid-column-end: 21;
         }
         .text-3{
             text-align: justify;
-            grid-row-start: 15;
+            grid-row-start: 16;
             grid-column-start: 1;
             grid-column-end: 21;
         }
@@ -231,21 +231,20 @@
 }
 
 @media (min-width: 300px) and (max-width: 400px){
-    .empresa{
+    .empresa{        
         h1{
-            font-size: 80px;
+            font-size: 65px;
             grid-row-start: 2;
         }
         span{
-            height: 55px;
-            margin-top: 25px;
+            height: 45px;            
             grid-row-start: 4;
             h2{
-                font-size: 40px;
+                font-size: 30px;
             }           
         }
         p{
-            font-size: 12px;
+            font-size: 10px;
         }
         .text-1{
             text-align: justify;
