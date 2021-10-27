@@ -1000,9 +1000,6 @@ html, body {
     top: 34%;
     margin-right: 0;
   }
-  .home .img-main {
-    display: none;
-  }
   .home span {
     height: 60px;
     border-radius: 12px;
@@ -1787,7 +1784,7 @@ html, body {
 
 @media (min-width: 300px) and (max-width: 400px) {
   .obras {
-    padding-top: 30vw;
+    padding-top: 1vw;
     min-height: 900px;
     -ms-grid-rows: (5%)[160];
         grid-template-rows: repeat(160, 5%);
