@@ -314,8 +314,8 @@
 // ok
 @media (min-width: 600px) and (max-width: 800px){
     .obras{        
-        min-height: 700px;
-        
+        min-height: 650px;
+        max-height: 700px;
         grid-template-rows: repeat(160, 5%);
         .obras-title-1{
             font-size: 80px;            
