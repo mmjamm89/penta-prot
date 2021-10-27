@@ -129,7 +129,8 @@ body::-webkit-scrollbar-thumb {
 @media (min-width: 600px) and (max-width: 800px) {
   .main {
     min-width: 400px;
-    min-height: 600px;
+    min-height: 750px;
+    max-height: 800px;
   }
 }
 
@@ -144,8 +145,8 @@ body::-webkit-scrollbar-thumb {
 @media (min-width: 300px) and (max-width: 400px) {
   .main {
     min-width: 300px;
-    min-height: 100vh;
-    min-height: 700px;
+    min-height: 98vh;
+    max-height: 500px;
   }
 }
 
@@ -226,6 +227,8 @@ body::-webkit-scrollbar-thumb {
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   display: none;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
 .header .navbar .menu-btn__burger {
@@ -481,7 +484,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (min-width: 300px) and (max-width: 400px) {
   .header {
-    min-height: 60px;
+    min-height: 40px;
   }
   .header .navbar {
     width: 100%;
@@ -494,7 +497,7 @@ body::-webkit-scrollbar-thumb {
     margin-left: 10px;
   }
   .header .navbar .logo-navbar a #logo {
-    width: 15vw;
+    width: 11vw;
   }
   .header .navbar .menu-btn {
     display: -webkit-box;
@@ -508,6 +511,7 @@ body::-webkit-scrollbar-thumb {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-top: 30%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -850,7 +854,8 @@ body::-webkit-scrollbar-thumb {
 
 @media (min-width: 800px) and (max-width: 900px) {
   .home {
-    max-height: 700px;
+    min-height: 600px;
+    max-height: 600px;
   }
   .home h1 {
     font-size: 110px;
@@ -898,77 +903,20 @@ body::-webkit-scrollbar-thumb {
   .home {
     display: inline-block;
     position: relative;
+    min-height: 700px;
+    max-height: 700px;
   }
   .home h1 {
     position: absolute;
     left: 0;
-    top: 10%;
-    font-size: 100px;
+    top: 5%;
+    font-size: 120px;
   }
   .home h2 {
     position: absolute;
     left: 0;
-    top: 25%;
-    font-size: 50px;
-  }
-  .home p {
-    font-size: 3.5vw;
-    position: absolute;
-    left: 0;
-    top: 37%;
-    margin-right: 0;
-  }
-  .home .img-main {
-    display: none;
-  }
-  .home span {
-    height: 60px;
-    border-radius: 12px;
-    width: 100%;
-    border-radius: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    position: absolute;
-    right: 50%;
-    -webkit-transform: translateX(50%);
-            transform: translateX(50%);
-    top: 80%;
-  }
-  .home span button {
-    width: 160px;
-    height: 40px;
-    border-radius: 8px;
-    margin-left: 0;
-  }
-  .home span button a {
-    font-size: 20px;
-  }
-}
-
-@media (min-width: 400px) and (max-width: 600px) {
-  .home {
-    display: inline-block;
-    position: relative;
-    min-height: 500px;
-  }
-  .home h1 {
-    position: absolute;
-    left: 0;
-    top: 10%;
-    font-size: 100px;
-  }
-  .home h2 {
-    position: absolute;
-    left: 0;
-    top: 22%;
-    font-size: 50px;
+    top: 16%;
+    font-size: 60px;
   }
   .home p {
     font-size: 3vw;
@@ -976,22 +924,22 @@ body::-webkit-scrollbar-thumb {
     width: 45vw;
     text-align: left;
     left: 0;
-    top: 34%;
+    top: 26%;
     margin-right: 0;
   }
   .home .home-img-container {
     position: absolute;
-    height: 280px;
+    height: 50vw;
     width: 50vw;
-    top: 35%;
+    top: 26%;
     right: 0;
   }
   .home .home-img-container .img-main {
-    height: 60vw;
-    max-height: 271px;
+    height: 50vw;
+    max-height: 369px;
   }
   .home span {
-    height: 50px;
+    height: 60px;
     border-radius: 12px;
     width: 100%;
     border-radius: 0;
@@ -1021,22 +969,91 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+@media (min-width: 400px) and (max-width: 600px) {
+  .home {
+    display: inline-block;
+    position: relative;
+    min-height: 500px;
+  }
+  .home h1 {
+    position: absolute;
+    left: 0;
+    top: 5%;
+    font-size: 100px;
+  }
+  .home h2 {
+    position: absolute;
+    left: 0;
+    top: 16%;
+    font-size: 50px;
+  }
+  .home p {
+    font-size: 3vw;
+    position: absolute;
+    width: 45vw;
+    text-align: left;
+    left: 0;
+    top: 26%;
+    margin-right: 0;
+  }
+  .home .home-img-container {
+    position: absolute;
+    height: 70vw;
+    width: 50vw;
+    top: 26%;
+    right: 0;
+  }
+  .home .home-img-container .img-main {
+    height: 70vw;
+    max-height: 337px;
+  }
+  .home span {
+    height: 50px;
+    border-radius: 12px;
+    width: 100%;
+    border-radius: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+    top: 82%;
+  }
+  .home span button {
+    width: 130px;
+    height: 35px;
+    border-radius: 8px;
+    margin-left: 0;
+  }
+  .home span button a {
+    font-size: 20px;
+  }
+}
+
 @media (min-width: 300px) and (max-width: 400px) {
   .home {
-    min-height: 500px;
+    min-height: 400px;
     display: inline-block;
     position: relative;
   }
   .home h1 {
     position: absolute;
     left: 0;
-    top: 10%;
-    font-size: 90px;
+    top: 5%;
+    font-size: 80px;
   }
   .home h2 {
     position: absolute;
     left: 0;
-    top: 22%;
+    top: 18%;
     font-size: 35px;
   }
   .home p {
@@ -1045,17 +1062,19 @@ body::-webkit-scrollbar-thumb {
     width: 45vw;
     text-align: left;
     left: 0;
-    top: 32%;
+    top: 27%;
     margin-right: 0;
   }
   .home .home-img-container {
     position: absolute;
-    height: 260px;
-    top: 32%;
+    height: 72vw;
+    width: 50vw;
+    top: 27%;
     right: 0;
   }
   .home .home-img-container .img-main {
-    height: 200px;
+    height: 72vw;
+    max-height: 233px;
   }
   .home span {
     height: 50px;
@@ -1532,7 +1551,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (min-width: 600px) and (max-width: 800px) {
   .obras {
-    min-height: 650px;
+    min-height: 700px;
     max-height: 700px;
     -ms-grid-rows: (5%)[160];
         grid-template-rows: repeat(160, 5%);
@@ -1687,8 +1706,8 @@ body::-webkit-scrollbar-thumb {
 
 @media (min-width: 400px) and (max-width: 600px) {
   .obras {
-    padding-top: 15vw;
-    min-height: 800px;
+    min-height: 700px;
+    max-height: 700px;
     -ms-grid-rows: (5%)[160];
         grid-template-rows: repeat(160, 5%);
   }
@@ -2310,13 +2329,14 @@ body::-webkit-scrollbar-thumb {
 @media (min-width: 300px) and (max-width: 400px) {
   .empresa h1 {
     font-size: 65px;
-    -ms-grid-row: 2;
-        grid-row-start: 2;
+    -ms-grid-row: 1;
+        grid-row-start: 1;
   }
   .empresa span {
-    height: 45px;
+    height: 40px;
     -ms-grid-row: 4;
         grid-row-start: 4;
+    margin-top: -4px;
   }
   .empresa span h2 {
     font-size: 30px;
@@ -2326,24 +2346,24 @@ body::-webkit-scrollbar-thumb {
   }
   .empresa .text-1 {
     text-align: justify;
-    -ms-grid-row: 7;
-        grid-row-start: 7;
+    -ms-grid-row: 5;
+        grid-row-start: 5;
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 21;
   }
   .empresa .text-2 {
     text-align: justify;
-    -ms-grid-row: 11;
-        grid-row-start: 11;
+    -ms-grid-row: 9;
+        grid-row-start: 9;
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 21;
   }
   .empresa .text-3 {
     text-align: justify;
-    -ms-grid-row: 15;
-        grid-row-start: 15;
+    -ms-grid-row: 13;
+        grid-row-start: 13;
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 21;
@@ -2452,7 +2472,6 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    margin-top: 50px;
   }
   .contacto h1 {
     font-size: 100px;
@@ -2486,7 +2505,6 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    margin-top: 50px;
   }
   .contacto h1 {
     font-size: 72px;
@@ -2520,10 +2538,9 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    margin-top: 50px;
   }
   .contacto h1 {
-    font-size: 50px;
+    font-size: 55px;
     margin-bottom: -30px;
   }
   .contacto span {

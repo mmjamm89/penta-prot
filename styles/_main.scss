@@ -35,8 +35,8 @@
 @media (min-width: 600px) and (max-width: 800px){
     .main{
         min-width: 400px;
-        min-height: 600px;
-        
+        min-height: 750px;
+        max-height: 800px;
     }
 }
 // ok
@@ -51,7 +51,8 @@
 @media (min-width: 300px) and (max-width: 400px){
     .main{
         min-width: 300px;
-        min-height: 100vh;
-        min-height: 700px;        
+        min-height: 98vh;        
+        max-height: 500px;
+        
     }
 }
