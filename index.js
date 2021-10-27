@@ -10,9 +10,9 @@ const introAnimation = () => {
 
 //Animacion transicion
 const homeElementsAnimation = () => {
-  let tl = gsap.timeline({default: {ease: "power1.out"}})
+  let tl = gsap.timeline({default: {ease: "expo"}})
 
-  tl.fromTo('.content', {opacity: 0}, {opacity: 1, duration: 2})
+  tl.fromTo('.content', {opacity: 0}, {opacity: 1, duration: 0.1})
 }
 
 //Menu desplegable
@@ -37,5 +37,5 @@ const menu = () => {
 )}
 
 introAnimation();
-homeElementsAnimation();
 menu();
+homeElementsAnimation();

@@ -490,6 +490,7 @@ html, body {
     height: 91vh;
     z-index: 99;
     background-color: #3D3D3D;
+    opacity: 0;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
   }
@@ -536,6 +537,7 @@ html, body {
 }
 
 .content {
+  opacity: 0;
   max-width: 800px;
   max-height: 900px;
   position: static;
