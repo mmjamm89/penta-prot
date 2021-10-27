@@ -105,7 +105,7 @@ html, body {
   .main {
     min-width: 300px;
     max-height: 100vh;
-    min-height: 600px;
+    min-height: 700px;
   }
 }
 
@@ -113,7 +113,7 @@ html, body {
   .main {
     min-width: 300px;
     min-height: 100vh;
-    min-height: 500px;
+    min-height: 700px;
   }
 }
 
@@ -922,6 +922,7 @@ html, body {
   .home {
     display: inline-block;
     position: relative;
+    min-height: 500px;
   }
   .home h1 {
     position: absolute;
@@ -932,21 +933,31 @@ html, body {
   .home h2 {
     position: absolute;
     left: 0;
-    top: 24%;
+    top: 22%;
     font-size: 50px;
   }
   .home p {
-    font-size: 3.5vw;
+    font-size: 3vw;
     position: absolute;
+    width: 45vw;
+    text-align: left;
     left: 0;
     top: 34%;
     margin-right: 0;
   }
-  .home .img-main {
-    display: none;
+  .home .home-img-container {
+    position: absolute;
+    height: 280px;
+    width: 50vw;
+    top: 35%;
+    right: 0;
+  }
+  .home .home-img-container .img-main {
+    height: 60vw;
+    max-height: 271px;
   }
   .home span {
-    height: 60px;
+    height: 50px;
     border-radius: 12px;
     width: 100%;
     border-radius: 0;
@@ -963,11 +974,11 @@ html, body {
     right: 50%;
     -webkit-transform: translateX(50%);
             transform: translateX(50%);
-    top: 65%;
+    top: 80%;
   }
   .home span button {
-    width: 160px;
-    height: 40px;
+    width: 130px;
+    height: 35px;
     border-radius: 8px;
     margin-left: 0;
   }
@@ -978,6 +989,7 @@ html, body {
 
 @media (min-width: 300px) and (max-width: 400px) {
   .home {
+    min-height: 500px;
     display: inline-block;
     position: relative;
   }
@@ -990,18 +1002,29 @@ html, body {
   .home h2 {
     position: absolute;
     left: 0;
-    top: 24%;
+    top: 22%;
     font-size: 35px;
   }
   .home p {
     font-size: 3.5vw;
     position: absolute;
+    width: 45vw;
+    text-align: left;
     left: 0;
-    top: 34%;
+    top: 32%;
     margin-right: 0;
   }
+  .home .home-img-container {
+    position: absolute;
+    height: 260px;
+    top: 32%;
+    right: 0;
+  }
+  .home .home-img-container .img-main {
+    height: 200px;
+  }
   .home span {
-    height: 60px;
+    height: 50px;
     border-radius: 12px;
     width: 100%;
     border-radius: 0;
@@ -1018,11 +1041,11 @@ html, body {
     right: 50%;
     -webkit-transform: translateX(50%);
             transform: translateX(50%);
-    top: 57%;
+    top: 70%;
   }
   .home span button {
-    width: 160px;
-    height: 40px;
+    width: 150px;
+    height: 35px;
     border-radius: 8px;
     margin-left: 0;
   }
@@ -1785,7 +1808,7 @@ html, body {
 @media (min-width: 300px) and (max-width: 400px) {
   .obras {
     padding-top: 1vw;
-    min-height: 900px;
+    min-height: 700px;
     -ms-grid-rows: (5%)[160];
         grid-template-rows: repeat(160, 5%);
   }
@@ -2473,6 +2496,7 @@ html, body {
     padding-top: 8vh;
     height: 30vh;
     width: 100%;
+    font-size: 4vw;
   }
   .contacto .maps {
     margin-top: 20px;
