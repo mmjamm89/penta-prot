@@ -1,33 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -680,9 +700,10 @@ body::-webkit-scrollbar-thumb {
   font-size: initial;
   font-weight: 400;
   color: #F2922E;
-  font-size: 120px;
+  font-size: 150px;
   line-height: 100px;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  font-family: "Inconsolata", monospace;
+  font-weight: 500;
 }
 
 .home h2 {
@@ -691,25 +712,64 @@ body::-webkit-scrollbar-thumb {
   -ms-grid-row: 4;
       grid-row-start: 4;
   font-weight: 400;
-  color: #DFDFE2;
+  color: rgba(196, 196, 196, 0.5);
   font-size: 50px;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
 }
 
-.home .logo-home {
-  display: none;
+.home .home-text-1 {
+  -ms-grid-row: 6;
+      grid-row-start: 6;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 12;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-family: "Sanchez", serif;
+  font-weight: 500;
+  color: #DFDFE2;
+  margin-top: 0;
+}
+
+.home .home-text-2 {
+  -ms-grid-row: 8;
+      grid-row-start: 8;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 12;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-family: "Sanchez", serif;
+  font-weight: 500;
+  color: #DFDFE2;
+  margin-top: 0;
+}
+
+.home .home-text-3 {
+  -ms-grid-row: 10;
+      grid-row-start: 10;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 12;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-family: "Sanchez", serif;
+  font-weight: 500;
+  color: #DFDFE2;
+  margin-top: 0;
 }
 
 .home p {
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 13;
-  -ms-grid-row: 6;
-      grid-row-start: 6;
+  -ms-grid-row: 13;
+      grid-row-start: 13;
   grid-row-end: 14;
-  margin-right: 20px;
-  font-size: 25px;
+  font-size: 23px;
   color: #DFDFE2;
+  text-transform: uppercase;
+  font-family: "Inconsolata", monospace;
 }
 
 .home .home-img-container {
@@ -739,8 +799,8 @@ body::-webkit-scrollbar-thumb {
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 21;
-  -ms-grid-row: 15;
-      grid-row-start: 15;
+  -ms-grid-row: 16;
+      grid-row-start: 16;
   height: 120px;
   background-color: #F2922E;
   opacity: 0.9;
@@ -778,6 +838,7 @@ body::-webkit-scrollbar-thumb {
   text-decoration: none;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
+  font-family: "Inconsolata", monospace;
 }
 
 .home span button a:hover {
@@ -793,15 +854,33 @@ body::-webkit-scrollbar-thumb {
         grid-row-start: 3;
   }
   .home h2 {
-    font-size: 50px;
+    font-size: 45px;
     -ms-grid-row: 5;
         grid-row-start: 5;
     margin-top: 10px;
   }
+  .home .home-text-1 {
+    -ms-grid-row: 8;
+        grid-row-start: 8;
+    font-size: 45px;
+    margin-top: 0;
+  }
+  .home .home-text-2 {
+    -ms-grid-row: 9;
+        grid-row-start: 9;
+    font-size: 45px;
+    margin-top: 0;
+  }
+  .home .home-text-3 {
+    -ms-grid-row: 10;
+        grid-row-start: 10;
+    font-size: 50px;
+    margin-top: 0;
+  }
   .home p {
     font-size: 21px;
-    -ms-grid-row: 7;
-        grid-row-start: 7;
+    -ms-grid-row: 12;
+        grid-row-start: 12;
     grid-column-end: 12;
   }
   .home .home-img-container {
@@ -815,8 +894,8 @@ body::-webkit-scrollbar-thumb {
     height: 520px;
   }
   .home span {
-    -ms-grid-row: 14;
-        grid-row-start: 14;
+    -ms-grid-row: 15;
+        grid-row-start: 15;
     height: 80px;
   }
   .home span button {
@@ -843,10 +922,28 @@ body::-webkit-scrollbar-thumb {
         grid-row-start: 5;
     margin-top: 15px;
   }
-  .home p {
-    font-size: 18px;
+  .home .home-text-1 {
     -ms-grid-row: 8;
         grid-row-start: 8;
+    font-size: 45px;
+    margin-top: 0;
+  }
+  .home .home-text-2 {
+    -ms-grid-row: 9;
+        grid-row-start: 9;
+    font-size: 45px;
+    margin-top: 0;
+  }
+  .home .home-text-3 {
+    -ms-grid-row: 10;
+        grid-row-start: 10;
+    font-size: 50px;
+    margin-top: 0;
+  }
+  .home p {
+    font-size: 18px;
+    -ms-grid-row: 12;
+        grid-row-start: 12;
     grid-column-end: 13;
     padding-right: 10px;
   }
@@ -890,11 +987,29 @@ body::-webkit-scrollbar-thumb {
         grid-row-start: 5;
     margin-top: 8px;
   }
-  .home p {
-    font-size: 18px;
+  .home .home-text-1 {
     -ms-grid-row: 8;
         grid-row-start: 8;
-    grid-row-end: 12;
+    font-size: 42px;
+    margin-top: 0;
+  }
+  .home .home-text-2 {
+    -ms-grid-row: 10;
+        grid-row-start: 10;
+    font-size: 42px;
+    margin-top: 0;
+  }
+  .home .home-text-3 {
+    -ms-grid-row: 12;
+        grid-row-start: 12;
+    font-size: 42px;
+    margin-top: 0;
+  }
+  .home p {
+    font-size: 18px;
+    -ms-grid-row: 14;
+        grid-row-start: 14;
+    grid-row-end: 15;
     padding-right: 5px;
   }
   .home .home-img-container {
@@ -908,8 +1023,8 @@ body::-webkit-scrollbar-thumb {
     height: 490px;
   }
   .home span {
-    -ms-grid-row: 14;
-        grid-row-start: 14;
+    -ms-grid-row: 16;
+        grid-row-start: 16;
     height: 75px;
   }
   .home span button {
@@ -940,16 +1055,38 @@ body::-webkit-scrollbar-thumb {
     top: 16%;
     font-size: 60px;
   }
+  .home .home-text-1 {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    font-size: 42px;
+    margin-top: 0;
+  }
+  .home .home-text-2 {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    font-size: 42px;
+    margin-top: 0;
+  }
+  .home .home-text-3 {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    font-size: 42px;
+    margin-top: 0;
+  }
   .home p {
     font-size: 3vw;
     position: absolute;
     width: 45vw;
     text-align: left;
     left: 0;
-    top: 26%;
+    top: 50%;
     margin-right: 0;
   }
   .home .home-img-container {
+    display: none;
     position: absolute;
     height: 50vw;
     width: 50vw;
@@ -978,7 +1115,7 @@ body::-webkit-scrollbar-thumb {
     right: 50%;
     -webkit-transform: translateX(50%);
             transform: translateX(50%);
-    top: 80%;
+    top: 70%;
   }
   .home span button {
     width: 130px;
@@ -1009,16 +1146,38 @@ body::-webkit-scrollbar-thumb {
     top: 16%;
     font-size: 50px;
   }
-  .home p {
-    font-size: 3vw;
+  .home .home-text-1 {
     position: absolute;
-    width: 45vw;
+    left: 0;
+    top: 30%;
+    font-size: 42px;
+    margin-top: 0px;
+  }
+  .home .home-text-2 {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    font-size: 42px;
+    margin-top: 5px;
+  }
+  .home .home-text-3 {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    font-size: 42px;
+    margin-top: 10px;
+  }
+  .home p {
+    font-size: 3.5vw;
+    position: absolute;
+    width: 100%;
     text-align: left;
     left: 0;
-    top: 26%;
+    top: 50%;
     margin-right: 0;
   }
   .home .home-img-container {
+    display: none;
     position: absolute;
     height: 70vw;
     width: 50vw;
@@ -1075,19 +1234,41 @@ body::-webkit-scrollbar-thumb {
   .home h2 {
     position: absolute;
     left: 0;
-    top: 18%;
+    top: 15%;
     font-size: 35px;
   }
-  .home p {
-    font-size: 3.5vw;
+  .home .home-text-1 {
     position: absolute;
-    width: 45vw;
+    left: 0;
+    top: 30%;
+    font-size: 32px;
+    margin-top: 0px;
+  }
+  .home .home-text-2 {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    font-size: 32px;
+    margin-top: 5px;
+  }
+  .home .home-text-3 {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  .home p {
+    font-size: 5vw;
+    position: absolute;
+    width: 100%;
     text-align: left;
     left: 0;
-    top: 27%;
+    top: 50%;
     margin-right: 0;
   }
   .home .home-img-container {
+    display: none;
     position: absolute;
     height: 72vw;
     width: 50vw;
@@ -1116,7 +1297,7 @@ body::-webkit-scrollbar-thumb {
     right: 50%;
     -webkit-transform: translateX(50%);
             transform: translateX(50%);
-    top: 70%;
+    top: 65%;
   }
   .home span button {
     width: 150px;
@@ -2364,6 +2545,7 @@ body::-webkit-scrollbar-thumb {
   color: #DFDFE2;
   font-family: "Roboto Slab", serif;
   font-weight: 400;
+  font-family: "Inconsolata", monospace;
 }
 
 .contacto .maps {

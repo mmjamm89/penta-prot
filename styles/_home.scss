@@ -16,29 +16,62 @@
         font-size: initial;
         font-weight: 400;
         color: $color-main-2;
-        font-size: 120px;
+        font-size: 150px;
         line-height: 100px;
-        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+        font-family: $font-4;
+        font-weight: 500;
     }
     h2{
         grid-column-start: 1;
         grid-row-start: 4;
         font-weight: 400;
-        color: $font-color-4;
+        color: $font-color-2;
         font-size: 50px;
-        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+        margin-top: 10px;
     }
-    .logo-home{
-        display: none;
+    .home-text-1{
+        grid-row-start: 6;
+        grid-column-start: 1;
+        grid-column-end: 12;
+        font-size: 70px;
+        text-transform: uppercase;
+        font-family: $font-5;
+        font-weight: 500;
+        color: $font-color-4;
+        margin-top: 0;
+    }
+    .home-text-2{
+        grid-row-start: 8;
+        grid-column-start: 1;
+        grid-column-end: 12;
+        font-size: 70px;
+        text-transform: uppercase;
+        font-family: $font-5;
+        font-weight: 500;
+        color: $font-color-4;
+        margin-top: 0;
+    }
+    .home-text-3{
+        grid-row-start: 10;
+        grid-column-start: 1;
+        grid-column-end: 12;
+        font-size: 70px;
+        text-transform: uppercase;
+        font-family: $font-5;
+        font-weight: 500;
+        color: $font-color-4;
+        margin-top: 0;
     }
     p{
         grid-column-start: 1;
         grid-column-end: 13;
-        grid-row-start: 6;
+        grid-row-start: 13;
         grid-row-end: 14;
-        margin-right: 20px;
-        font-size: 25px;
+        // margin-right: 20px;
+        font-size: 23px;
         color: $font-color-4;
+        text-transform: uppercase;
+        font-family: $font-4;        
     }
     .home-img-container{
         height: 700px;
@@ -59,7 +92,7 @@
     span{            
         grid-column-start: 1;
         grid-column-end: 21;
-        grid-row-start: 15;
+        grid-row-start: 16;
         height: 120px;
         background-color: $color-main-2;
         opacity: 0.9;        
@@ -85,6 +118,7 @@
                 cursor: pointer;
                 text-decoration: none;
                 transition: all .3s ease;
+                font-family: $font-4;
                 &:hover{
                     color: $color-main-2;
                 }
@@ -100,13 +134,28 @@
             grid-row-start: 3;
         }
         h2{
-            font-size: 50px;
+            font-size: 45px;
             grid-row-start: 5;
             margin-top: 10px;
         }
+        .home-text-1{
+            grid-row-start: 8;
+            font-size: 45px;
+            margin-top: 0;
+        }
+        .home-text-2{
+            grid-row-start: 9;
+            font-size: 45px;
+            margin-top: 0;
+        }
+        .home-text-3{
+            grid-row-start: 10;
+            font-size: 50px;
+            margin-top: 0;
+        }
         p{
             font-size: 21px;
-            grid-row-start: 7;
+            grid-row-start: 12;
             grid-column-end: 12;
         }
         .home-img-container{
@@ -118,7 +167,7 @@
             }
         }        
         span{                    
-            grid-row-start: 14;
+            grid-row-start: 15;
             height: 80px;
             button{
                 width: 200px;
@@ -143,9 +192,24 @@
             grid-row-start: 5;
             margin-top: 15px;
         }
+        .home-text-1{
+            grid-row-start: 8;
+            font-size: 45px;
+            margin-top: 0;
+        }
+        .home-text-2{
+            grid-row-start: 9;
+            font-size: 45px;
+            margin-top: 0;
+        }
+        .home-text-3{
+            grid-row-start: 10;
+            font-size: 50px;
+            margin-top: 0;
+        }
         p{
             font-size: 18px;
-            grid-row-start: 8;
+            grid-row-start: 12;
             grid-column-end: 13;
             padding-right: 10px;
         }
@@ -184,10 +248,25 @@
             grid-row-start: 5;
             margin-top: 8px;
         }
+        .home-text-1{
+            grid-row-start: 8;
+            font-size: 42px;
+            margin-top: 0;
+        }
+        .home-text-2{
+            grid-row-start: 10;
+            font-size: 42px;
+            margin-top: 0;
+        }
+        .home-text-3{
+            grid-row-start: 12;
+            font-size: 42px;
+            margin-top: 0;
+        }
         p{
             font-size: 18px;
-            grid-row-start: 8;
-            grid-row-end: 12;
+            grid-row-start: 14;
+            grid-row-end: 15;
             padding-right: 5px;
         }
         .home-img-container{
@@ -199,7 +278,7 @@
             }
         }
         span{                    
-            grid-row-start: 14;
+            grid-row-start: 16;
             height: 75px;
             button{
                 width: 180px;
@@ -211,7 +290,6 @@
         }
     }
 }
-
 @media (min-width: 600px) and (max-width: 800px){
     .home{        
         display: inline-block;
@@ -229,6 +307,27 @@
             left: 0;
             top: 16%;
             font-size: 60px;
+        }
+        .home-text-1{
+            position: absolute;
+            left: 0;
+            top: 30%;
+            font-size: 42px;
+            margin-top: 0;
+        }
+        .home-text-2{
+            position: absolute;
+            left: 0;
+            top: 35%;
+            font-size: 42px;
+            margin-top: 0;
+        }
+        .home-text-3{
+            position: absolute;
+            left: 0;
+            top: 40%;
+            font-size: 42px;
+            margin-top: 0;
         }        
         p{
             font-size: 3vw;
@@ -236,10 +335,11 @@
             width: 45vw;
             text-align: left;
             left: 0;
-            top: 26%;
+            top: 50%;
             margin-right: 0;
         }
         .home-img-container{
+            display: none;
             position: absolute;
             height: 50vw;
             width: 50vw; 
@@ -261,7 +361,7 @@
             position: absolute;
             right: 50%;
             transform: translateX(50%);
-            top: 80%;            
+            top: 70%;            
             button{ 
                 width: 130px;
                 height: 35px;                    
@@ -274,8 +374,6 @@
         }
     }
 }
-
-
 // ok
 @media (min-width: 400px) and (max-width: 600px){
     .home{        
@@ -293,17 +391,39 @@
             left: 0;
             top: 16%;
             font-size: 50px;
+        }
+        .home-text-1{
+            position: absolute;
+            left: 0;
+            top: 30%;
+            font-size: 42px;
+            margin-top: 0px;
+        }
+        .home-text-2{
+            position: absolute;
+            left: 0;
+            top: 35%;
+            font-size: 42px;
+            margin-top: 5px;
+        }
+        .home-text-3{
+            position: absolute;
+            left: 0;
+            top: 40%;
+            font-size: 42px;
+            margin-top: 10px;
         }        
         p{
-            font-size: 3vw;
+            font-size: 3.5vw;
             position: absolute;
-            width: 45vw;
+            width: 100%;
             text-align: left;
             left: 0;
-            top: 26%;
+            top: 50%;
             margin-right: 0;
         }
         .home-img-container{
+            display: none;
             position: absolute;
             height: 70vw;
             width: 50vw; 
@@ -353,19 +473,40 @@
         h2{
             position: absolute;
             left: 0;
-            top: 18%;
+            top: 15%;
             font-size: 35px;
+        }.home-text-1{
+            position: absolute;
+            left: 0;
+            top: 30%;
+            font-size: 32px;
+            margin-top: 0px;
+        }
+        .home-text-2{
+            position: absolute;
+            left: 0;
+            top: 35%;
+            font-size: 32px;
+            margin-top: 5px;
+        }
+        .home-text-3{
+            position: absolute;
+            left: 0;
+            top: 40%;
+            font-size: 32px;
+            margin-top: 10px;
         }        
         p{
-            font-size: 3.5vw;
+            font-size: 5vw;
             position: absolute;
-            width: 45vw;
+            width: 100%;
             text-align: left;
             left: 0;
-            top: 27%;
+            top: 50%;
             margin-right: 0;
         }
         .home-img-container{
+            display: none;
             position: absolute;
             height: 72vw; 
             width: 50vw;
@@ -387,7 +528,7 @@
             position: absolute;
             right: 50%;
             transform: translateX(50%);
-            top: 70%;
+            top: 65%;
             button{ 
                 width: 150px;
                 height: 35px;
