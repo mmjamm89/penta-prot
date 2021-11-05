@@ -854,10 +854,9 @@ body::-webkit-scrollbar-thumb {
         grid-row-start: 3;
   }
   .home h2 {
-    font-size: 45px;
     -ms-grid-row: 5;
         grid-row-start: 5;
-    margin-top: 10px;
+    margin-top: 15px;
   }
   .home .home-text-1 {
     -ms-grid-row: 8;
@@ -894,8 +893,8 @@ body::-webkit-scrollbar-thumb {
     height: 520px;
   }
   .home span {
-    -ms-grid-row: 15;
-        grid-row-start: 15;
+    -ms-grid-row: 14;
+        grid-row-start: 14;
     height: 80px;
   }
   .home span button {
@@ -912,12 +911,10 @@ body::-webkit-scrollbar-thumb {
     max-height: 700px;
   }
   .home h1 {
-    font-size: 120px;
     -ms-grid-row: 3;
         grid-row-start: 3;
   }
   .home h2 {
-    font-size: 50px;
     -ms-grid-row: 5;
         grid-row-start: 5;
     margin-top: 15px;
@@ -994,16 +991,16 @@ body::-webkit-scrollbar-thumb {
     margin-top: 0;
   }
   .home .home-text-2 {
+    -ms-grid-row: 9;
+        grid-row-start: 9;
+    font-size: 42px;
+    margin-top: 5px;
+  }
+  .home .home-text-3 {
     -ms-grid-row: 10;
         grid-row-start: 10;
     font-size: 42px;
-    margin-top: 0;
-  }
-  .home .home-text-3 {
-    -ms-grid-row: 12;
-        grid-row-start: 12;
-    font-size: 42px;
-    margin-top: 0;
+    margin-top: 10px;
   }
   .home p {
     font-size: 18px;
@@ -1087,15 +1084,6 @@ body::-webkit-scrollbar-thumb {
   }
   .home .home-img-container {
     display: none;
-    position: absolute;
-    height: 50vw;
-    width: 50vw;
-    top: 26%;
-    right: 0;
-  }
-  .home .home-img-container .img-main {
-    height: 50vw;
-    max-height: 369px;
   }
   .home span {
     height: 60px;
@@ -1138,7 +1126,7 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     left: 0;
     top: 5%;
-    font-size: 100px;
+    font-size: 120px;
   }
   .home h2 {
     position: absolute;
@@ -1178,15 +1166,6 @@ body::-webkit-scrollbar-thumb {
   }
   .home .home-img-container {
     display: none;
-    position: absolute;
-    height: 70vw;
-    width: 50vw;
-    top: 26%;
-    right: 0;
-  }
-  .home .home-img-container .img-main {
-    height: 70vw;
-    max-height: 337px;
   }
   .home span {
     height: 50px;
@@ -1269,15 +1248,6 @@ body::-webkit-scrollbar-thumb {
   }
   .home .home-img-container {
     display: none;
-    position: absolute;
-    height: 72vw;
-    width: 50vw;
-    top: 27%;
-    right: 0;
-  }
-  .home .home-img-container .img-main {
-    height: 72vw;
-    max-height: 233px;
   }
   .home span {
     height: 50px;
@@ -1327,7 +1297,6 @@ body::-webkit-scrollbar-thumb {
       grid-row-start: 1;
   font-size: 90px;
   color: #F2922E;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .obras .obras-span-1 {
@@ -1349,8 +1318,6 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .obras .obras-span-1 .obras-ejecucion {
@@ -2092,7 +2059,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 10px;
   }
   .obras .proyecto-2 .proyecto-descripcion .proyecto-head-1 {
-    font-size: 25px;
+    font-size: 6vw;
   }
   .obras .proyecto-2 .proyecto-descripcion .proyecto-head-2 {
     font-size: 12px;
@@ -2178,8 +2145,6 @@ body::-webkit-scrollbar-thumb {
       -ms-flex-pack: start;
           justify-content: flex-start;
   background-color: #F2922E;
-  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3), -4px -4px 8px rgba(0, 0, 0, 0.1);
-          box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3), -4px -4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .empresa span h2 {
@@ -2518,7 +2483,6 @@ body::-webkit-scrollbar-thumb {
       grid-row-start: 1;
   font-size: 90px;
   color: #F2922E;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .contacto span {
@@ -2639,7 +2603,7 @@ body::-webkit-scrollbar-thumb {
             justify-content: flex-start;
   }
   .contacto h1 {
-    font-size: 72px;
+    font-size: 65px;
     margin-bottom: -30px;
   }
   .contacto span {
@@ -2672,7 +2636,7 @@ body::-webkit-scrollbar-thumb {
             justify-content: flex-start;
   }
   .contacto h1 {
-    font-size: 55px;
+    font-size: 50px;
     margin-bottom: -30px;
   }
   .contacto span {

@@ -11,7 +11,7 @@
         grid-row-start: 1;
         font-size: 90px;
         color: $color-main-2;
-        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+        // text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
     }
     .obras-span-1{
         grid-row-start: 3;
@@ -24,7 +24,7 @@
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+        // box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
         .obras-ejecucion{
             font-size: 60px;
             color: $font-color-3;
@@ -649,7 +649,7 @@
                 width: 100%;
                 font-size: 10px;
                 .proyecto-head-1{
-                    font-size: 25px;
+                    font-size: 6vw;
                 }
                 .proyecto-head-2{
                     font-size: 12px;
