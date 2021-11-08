@@ -16,7 +16,7 @@ const homeElementsAnimation = () => {
 }
 
 //Menu desplegable
-const menu = () => {
+const menu = () => { 
 
   const menuBtn = document.querySelector('.menu-btn');
   const navUl = document.querySelector('.nav-links')
