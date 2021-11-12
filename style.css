@@ -1462,7 +1462,7 @@ body::-webkit-scrollbar-thumb {
 .obras .proyecto-3 .img-proyecto {
   width: 50%;
   overflow: hidden;
-  background-image: url("./assets/BGarzon_34.jpg");
+  background-image: url("./assets/Frame 2.jpg");
   background-size: cover;
   border-radius: 16px 0 0 16px;
 }
@@ -1829,7 +1829,7 @@ body::-webkit-scrollbar-thumb {
         grid-row-start: 36;
   }
   .obras .proyecto-3 .img-proyecto {
-    background-image: url("./assets/BGarzon_34.jpg");
+    background-image: url("./assets/Frame 2.jpg");
     background-size: cover;
     border-radius: 16px;
     height: 60%;
@@ -1950,7 +1950,7 @@ body::-webkit-scrollbar-thumb {
         grid-row-start: 36;
   }
   .obras .proyecto-3 .img-proyecto {
-    background-image: url("./assets/BGarzon_34.jpg");
+    background-image: url("./assets/Frame 2.jpg");
     background-size: cover;
     border-radius: 16px 16px 0 0;
     height: 60%;
@@ -2081,7 +2081,7 @@ body::-webkit-scrollbar-thumb {
         grid-row-start: 36;
   }
   .obras .proyecto-3 .img-proyecto {
-    background-image: url("./assets/BGarzon_34.jpg");
+    background-image: url("./assets/Frame 2.jpg");
     background-size: cover;
     border-radius: 16px 16px 0 0;
     height: 60%;
