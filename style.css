@@ -1462,7 +1462,7 @@ body::-webkit-scrollbar-thumb {
 .obras .proyecto-3 .img-proyecto {
   width: 50%;
   overflow: hidden;
-  background-image: url("./assets/Frame 2.jpg");
+  background-image: url("./assets/Frame-2.jpg");
   background-size: cover;
   border-radius: 16px 0 0 16px;
 }
